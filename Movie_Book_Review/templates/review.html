@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Review Details - {{ item.title if item else 'Not Found' }}</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"/>
+<script defer src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+<header>
+<h1>Review Details</h1>
+<nav>
+<a href="{{ url_for('index') }}">Home</a>
+</nav>
+</header>
+<section id="review-container" class="review-container">
+    {% if item %}
+    <div class="review-item">
+        <img src="{{ item.image }}" alt="{{ item.title }}">
+        <div class="details">
+            <h2>{{ item.title }}</h2>
+            <p><strong>Genre:</strong> {{ item.genre }}</p>
+            <p><strong>Year:</strong> {{ item.year }}</p>
+            <p><strong>Review:</strong> {{ item.review }}</p>
+            <div class="rating" onclick="rate(event, '{{ item.id }}')"> ★★★★★ </div>
+            {% if item.trailer %}
+            <iframe src="{{ item.trailer }}" frameborder="0" allowfullscreen></iframe>
+            {% endif %}
+        </div>
+    </div>
+    {% else %}
+    <p>Review item could not be found.</p>
+    {% endif %}
+</section>
+<footer>
+<p>&copy; 2025 My Reviews. All rights reserved.</p>
+</footer>
+</body>
+</html>

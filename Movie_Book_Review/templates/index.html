@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Movie & Book Reviews</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"/>
+<script defer src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+<header>
+<h1>My Movie & Book Reviews</h1>
+</header>
+<section class="controls">
+<input type="text" id="search" placeholder="Search..."/>
+<select id="filter">
+<option value="all">All</option>
+<option value="movie">Movies</option>
+<option value="book">Books</option>
+<option value="k-drama">K-Drama</option>
+<option value="series">Series</option>
+<option value="disney">Disney</option>
+</select>
+</section>
+<section id="items-container" class="items">
+    {% for item in items %}
+    <div class="card" data-type="{{ item.type }}">
+        <img src="{{ item.image }}" alt="{{ item.title }}">
+        <h3>{{ item.title }}</h3>
+        <p><strong>Genre:</strong> {{ item.genre }}</p>
+        <a href="{{ url_for('review', id=item.id) }}" class="btn">Read Review</a>
+    </div>
+    {% endfor %}
+</section>
+<footer>
+<p>&copy; 2025 My Reviews. All rights reserved.</p>
+</footer>
+</body>
+</html>
