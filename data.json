@@ -1,0 +1,390 @@
+[
+    {
+      "id": 1,
+      "title": "It Ends with Us",
+      "type": "book",
+      "genre": "Romance / Drama",
+      "year": 2016,
+      "image": "https://i.pinimg.com/736x/e1/20/8d/e1208d68fe9f9bee4c7936a242dcc9bd.jpg",
+      "review": "A raw and emotional story tackling love, trauma, and resilience. Very impactful, especially for young adults."
+    },
+    {
+        "id": 2,
+        "title": "It Starts with Us",
+        "type": "book",
+        "genre": "Romance / Drama",
+        "year": "2022",
+        "image": "https://i.pinimg.com/736x/cc/c5/92/ccc592a1f843d839d6907398de7c59aa.jpg",
+        "review": "A highly anticipated follow-up to It Ends with Us, this book shifts the focus to Atlas Corrigan and Lily Bloom, offering closure and healing after the events of the first book. It's a hopeful, emotional second-chance love story, balancing romance with themes of personal growth and recovery from past trauma. Fans loved finally seeing Lily get her happy ending!"
+    },
+    {
+      "id": 3,
+      "title": "Verity",
+      "type": "book",
+      "genre": "Psychological Thriller",
+      "year": 2018,
+      "image": "https://i.pinimg.com/736x/f2/01/9b/f2019b0c5f0dd9891d4d3a47a0c8a22f.jpg ",
+      "review": "Twisted, suspenseful, and totally unputdownable. Darker than Hoover’s usual style.."
+    },
+    {
+        "id": 4,
+        "title": "The Midnight Library",
+        "type": "book",
+        "genre": "Fantasy / Philosophy",
+        "year": 2020,
+        "image": "https://i.pinimg.com/736x/0f/15/42/0f1542a78641ed0c02877601fbf13a05.jpg",
+        "review": "Explores regrets and second chances. Uplifting and thought-provoking with a hopeful message."
+    },
+    {
+        "id": 5,
+        "title": "A Good Girl’s Guide to Murder",
+        "type": "book",
+        "genre": "Mystery / Thriller / Young Adult",
+        "year": 2019,
+        "image": "https://i.pinimg.com/736x/f1/31/c5/f131c545376e2d6ce9563e7e4bb8d63d.jpg",
+        "review": "High schooler Pip investigates a closed murder case for her school project. Everyone believes Sal Singh killed Andie Bell, but Pip isn’t convinced. As she digs deeper, she uncovers dark secrets and puts herself in danger."
+    },
+    {
+        "id": 6,
+        "title": "Reminders of Him",
+        "type": "book",
+        "genre": "Romance / Drama",
+        "year": "2022",
+        "image": "https://i.pinimg.com/736x/95/e4/53/95e453c934b2d841701c6d7b875667ea.jpg",
+        "review": "A mother fighting to reunite with her daughter. Heartbreaking but with a hopeful ending. Classic CoHo feels!"
+      },
+      {
+          "id": 7,
+          "title": "Twisted Love",
+          "type": "series",
+          "genre": "Grumpy x Sunshine",
+          "year": 2021,
+          "image": "https://i.pinimg.com/736x/43/a1/3b/43a13b9e078141f06d7c305d415a313e.jpg",
+          "review": "Alex Volkov is ruthless and icy. Ava Chen is sunshine. It’s an opposites attract and forbidden romance with lots of angst and spice!"
+      },
+      {
+        "id": 8,
+        "title": "Twisted Games",
+        "type": "series",
+        "genre": "Forbidden Love",
+        "year": 2021,
+        "image": "https://i.pinimg.com/736x/ba/a5/e9/baa5e9793873839cfbbf10b5130d335b.jpg",
+        "review": "Rhys Larsen is the ultimate protective alpha bodyguard. Bridget von Ascheberg is a princess. Major slow burn, forbidden, and super steamy! Fans LOVE Rhys!"
+      },
+      {
+          "id": 9,
+          "title": "Twisted Hate",
+          "type": "series",
+          "genre": "Enemies-to-Lovers",
+          "year": 2022,
+          "image": "https://i.pinimg.com/736x/f9/28/a5/f928a53759d568872ace6408983cf370.jpg",
+          "review": "Christian Harper is a morally grey billionaire who’s obsessed (in a good way!) with Stella Alonso. Protective, obsessive hero + slow burn fake dating. Fans say this is the darkest and steamiest of the four!"
+      },
+      {
+          "id": 10,
+          "title": "Twisted Lies",
+          "type": "series",
+          "genre": "Billionaire Romance",
+          "year": 2022,
+          "image": "https://i.pinimg.com/736x/63/d4/b3/63d4b39b32a789d335f98fb46cafa55c.jpg",
+          "review": "High schooler Pip investigates a closed murder case for her school project. Everyone believes Sal Singh killed Andie Bell, but Pip isn’t convinced. As she digs deeper, she uncovers dark secrets and puts herself in danger."
+      },
+      {
+        "id": 11,
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "type": "series",
+        "genre": "Found Family, Magic School",
+        "year": 1997,
+        "image": "https://i.pinimg.com/1200x/10/36/03/103603cfb9681d280af6cef1de9cb7bb.jpg",
+        "review": "The magical world opens up! Harry discovers he’s a wizard and enters Hogwarts. Light-hearted and whimsical, with themes of friendship and bravery."
+    },
+    {
+      "id": 12,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "type": "series",
+      "genre": "Mystery, Hidden Powers",
+      "year": 1998,
+      "image": "https://i.pinimg.com/736x/fb/7e/66/fb7e66f8f41122f654d26911d6570049.jpg",
+      "review": "A darker mystery unfolds at Hogwarts. Harry faces danger in the Chamber and uncovers secrets of the past."
+    },
+    {
+        "id": 13,
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "type": "series",
+        "genre": "Time Travel, Identity Secrets",
+        "year": 1999,
+        "image": "https://i.pinimg.com/1200x/57/8c/f5/578cf5e990eaeb85ccdadf786006c6a7.jpg",
+        "review": "Sirius Black escapes Azkaban. Harry learns about his parents' past and finds new family ties. Twists and emotional depth grow here."
+    },
+    {
+        "id": 114,
+        "title": "Harry Potter and the Goblet of Fire",
+        "type": "series",
+        "genre": "Tournament, Coming-of-Age",
+        "year": 2000,
+        "image": "https://i.pinimg.com/736x/e9/f6/2d/e9f62d3e165757e2532c6d77dc2d2681.jpg",
+        "review": "The Triwizard Tournament tests Harry’s courage. Voldemort returns in a chilling climax. Stakes get higher!"
+    },
+    {
+        "id": 15,
+        "title": "Harry Potter and the Order of the Phoenix",
+        "type": "series",
+        "genre": "Rebellion, Found Family",
+        "year": 2003,
+        "image": "https://i.pinimg.com/736x/00/4a/07/004a075292a0a5fc4f1b47ef09e5ebf0.jpg",
+        "review": "Dark times ahead. Harry builds Dumbledore’s Army and faces government corruption. A story of resistance and personal loss."
+    },
+    {
+      "id": 16,
+      "title": "Harry Potter and the Half-Blood Prince",
+      "type": "series",
+      "genre": "Dark Secrets, Betrayal",
+      "year": 2005,
+      "image": "https://i.pinimg.com/1200x/49/10/b4/4910b448102e29d5b3802df3731e3095.jpg",
+      "review": "Dark secrets of Voldemort are revealed. Trust is tested, and a major betrayal changes everything. Heartbreaking and suspenseful."
+    },
+    {
+        "id": 17,
+        "title": "Harry Potter and the Deathly Hallows",
+        "type": "series",
+        "genre": "War, Sacrifice",
+        "year": 2007,
+        "image": "https://i.pinimg.com/736x/46/63/bc/4663bc3b9c6d8d502f7e33073c832d04.jpg",
+        "review": "The final battle. Harry, Ron, and Hermione go on a perilous quest. Themes of sacrifice, love, and courage lead to an epic conclusion."
+    },
+    {
+        "id": 18,
+        "title": "La La Land",
+        "type": "movie",
+        "genre": "Musical / Romance / Drama",
+        "year": 2016,
+        "image": "https://i.pinimg.com/736x/a3/fe/19/a3fe1953058d51294b8c061a9f76ead7.jpg",
+        "review": "A modern musical about love, dreams, and sacrifice. Gorgeous cinematography and music."
+    },
+    {
+        "id": 19,
+        "title": "A Quiet Place",
+        "type": "movie",
+        "genre": "Horror / Thriller",
+        "year": 2018,
+        "image": "https://i.pinimg.com/736x/d4/d7/39/d4d739ddce0213630326713de3c47627.jpg",
+        "review": "A tense, emotional survival horror with minimal dialogue and maximum suspense."
+    },
+    {
+        "id": 20,
+        "title": "Parasite",
+        "type": "movie",
+        "genre": "Fantasy, Fiction",
+        "year": 2023,
+        "image": "https://i.pinimg.com/736x/bc/e3/c2/bce3c2cbd502d88d137200ee7d928f09.jpg",
+        "review": "A gripping story that keeps you hooked till the end."
+    },
+    {
+        "id": 21,
+        "title": "Barbie",
+        "type": "movie",
+        "genre": "Fantasy / Comedy / Drama",
+        "year": 2023,
+        "image": "https://i.pinimg.com/736x/e8/92/9b/e8929bfe52f769365b0b988df0944bc0.jpg",
+        "review": "A mind-bending thriller about dreams within dreams. Complex and visually stunning."
+    },
+    {
+        "id": 22,
+        "title": "Inception",
+        "type": "movie",
+        "genre": "Sci-Fi / Thriller",
+        "year": 2010,
+        "image": "https://i.pinimg.com/736x/0b/e1/da/0be1dafba6a85a2b21dbb27102fd4d3b.jpg",
+        "review": "A gripping story that keeps you hooked till the end."
+    },
+    {
+        "id": 23,
+        "title": "Wish",
+        "type": "disney",
+        "genre": "Fantasy / Musical",
+        "year": 2023,
+        "image": "https://i.pinimg.com/736x/ad/7c/85/ad7c85a1856a4d399d2fc64068a626b1.jpg",
+        "review": "Celebrates Disney’s 100th anniversary! A new magical kingdom, catchy songs, and a powerful wish story!"
+    },
+    {
+        "id": 24,
+        "title": "Elemental",
+        "type": "disney",
+        "genre": "Romance / Comedy",
+        "year": 2023,
+        "image": "https://i.pinimg.com/736x/c4/41/d9/c441d9d5154fc41f2306806721f68cc6.jpg",
+        "review": "Opposites attract! A love story between fire and water in a world of elements. Beautiful visuals and a sweet message."
+    },
+    {
+        "id": 25,
+        "title": "The Little Mermaid (Live-Action)",
+        "type": "disney",
+        "genre": "Fantasy / Musical / Romance",
+        "year": 2023,
+        "image": "https://i.pinimg.com/736x/58/8b/e3/588be37a5be889c1c7c2569a7997c68b.jpg",
+        "review": "Halle Bailey shines as Ariel! Beautiful underwater visuals and the classic Disney magic with a fresh take."
+    },
+    {
+        "id": 26,
+        "title": "Frozen II",
+        "type": "disney",
+        "genre": "Fantasy / Adventure",
+        "year": 2019,
+        "image": "https://i.pinimg.com/736x/8d/b2/0a/8db20a2a357704adb50c6baba3cef42a.jpg",
+        "review": "Visually stunning with deeper lore. Elsa's journey to find herself, with catchy songs like Into the Unknown."
+    },
+    {
+        "id": 27,
+        "title": "Raya and the Last Dragon",
+        "type": "disney",
+        "genre": "Fantasy / Adventure",
+        "year": 2021,
+        "image": "https://i.pinimg.com/736x/59/e7/ba/59e7ba9abc4756edf620537e0cf3e301.jpg",
+        "review": "Beautiful animation, Southeast Asian-inspired world, and a message about trust. Strong female lead!"
+    },
+    {
+        "id": 28,
+        "title": "Twenty-Five Twenty-One",
+        "type": "k-drama",
+        "genre": "Romance / Drama",
+        "year": 2022,
+        "image": "https://i.pinimg.com/736x/17/ba/97/17ba97064fed20236152851e88c30e40.jpg",
+        "review": "Nostalgic 90s vibe, first love, and dreams. Beautiful but bittersweet story—grab tissues!"
+    },
+    {
+        "id": 29,
+        "title": "Sweet Home",
+        "type": "k-drama",
+        "genre": "Horror / Thriller / Fantasy",
+        "year": 2020,
+        "image": "https://i.pinimg.com/736x/72/ce/5a/72ce5a0bc47d4bbdf9fb77f1c391af44.jpg",
+        "review": "A dark, gripping survival thriller with monsters and psychological drama. Creepy but compelling!"
+    },
+    {
+        "id": 30,
+        "title": "Crash Landing on You",
+        "type": "k-drama",
+        "genre": "Romance / Comedy / Drama",
+        "year": 2019,
+        "image": "https://i.pinimg.com/736x/b4/1f/5f/b41f5f061dd907f9122d3827f49ae467.jpg",
+        "review": "A South Korean heiress crash-lands in North Korea and meets an army officer. Iconic love story, lots of feels!"
+    },
+    {
+        "id": 31,
+        "title": "Vincenzo",
+        "type": "k-drama",
+        "genre": "Action / Crime / Comedy",
+        "year": 2021,
+        "image": "https://i.pinimg.com/736x/21/0c/0e/210c0e69730c1b1f0c1a883299bf441c.jpg",
+        "review": "A Mafia consigliere returns to Korea. Dark comedy with thrilling moments and a badass anti-hero."
+    },
+    {
+        "id": 32,
+        "title": "All of Us are Dead",
+        "type": "k-drama",
+        "genre": "Zombie / Horror / Thriller",
+        "year": 2022,
+        "image": "https://i.pinimg.com/736x/f5/ac/04/f5ac04df8f9a5d3386a4e1138ca5f314.jpg",
+        "review": "High school students trapped during a zombie outbreak. Intense, emotional, and full of survival drama!"
+    },
+    {
+        "id": 33,
+        "title": "Funny Story",
+        "type": "book",
+        "genre": "Contemporary Romance / Romantic Comedy",
+        "year": 2024,
+        "image": "https://i.pinimg.com/736x/c3/73/52/c373524a9cec35b7c94ec7b859ed269e.jpg",
+        "review": "A delightful and deeply human rom-com from a beloved author. It follows Daphne, a heartbroken librarian, who teams up with Miles, the ex-fiancé of the man who left her, for a fake dating scheme. It's a story about finding an unexpected connection in the aftermath of betrayal, filled with witty banter, small-town charm, and emotional depth. It explores what it means to rebuild your life and discover a new, authentic happiness."
+    },
+    {
+        "id": 34,
+        "title": "Just for the Summer",
+        "type": "book",
+        "genre": "Contemporary Romance / Women's Fiction",
+        "year": 2024,
+        "image": "https://i.pinimg.com/736x/a6/55/38/a65538e5ef2a67816176809d7385be73.jpg",
+        "review": "A 'cursed' love story about Justin and Sam, who share the strange problem that every person they date finds their soulmate immediately after breaking up with them. They decide to date each other to finally break the cycle. This book is a beautiful blend of comedy and emotional depth, tackling heavy themes like mental health, familial responsibility, and the messy reality of love. It’s heartfelt, funny, and deeply satisfying."
+    },
+    {
+        "id": 35,
+        "title": "Hospital Playlist",
+        "type": "k-drama",
+        "genre": "Medical / Friendship / Life",
+        "year": 2020,
+        "image": "https://i.pinimg.com/736x/e0/e1/95/e0e195650caa961f5d381fc97234ef70.jpg",
+        "review": "Follows the lives of five doctors who have been friends since medical school. Warm, realistic, and features a great soundtrack performed by the cast."
+    },
+    {
+        "id": 36,
+        "title": "Goblin (Guardian: The Lonely and Great God)",
+        "type": "k-drama",
+        "genre": "Fantasy / Romance / Melodrama",
+        "year": 2016,
+        "image": "https://i.pinimg.com/736x/a8/50/70/a8507048050783039173791a4d4558b6.jpg",
+        "review": "A 939-year-old goblin must find his human bride to end his immortal life. Stunning cinematography, epic love story, and fantastic bromance!"
+    },
+    {
+        "id": 37,
+        "title": "Encanto",
+        "type": "disney",
+        "genre": "Musical / Fantasy / Comedy",
+        "year": 2021,
+        "image": "https://i.pinimg.com/736x/6b/22/96/6b2296996ede782745d76f9c948f2c5a.jpg",
+        "review": "A Colombian family with magical gifts must save their enchanted house. Incredible songs ('We Don't Talk About Bruno') and a touching message about family pressure."
+    },
+    {
+        "id": 38,
+        "title": "The Lion King",
+        "type": "disney",
+        "genre": "Animation / Adventure / Drama",
+        "year": 2019,
+        "image": "https://i.pinimg.com/1200x/29/48/c6/2948c6b3e59b7d64df4692b7a3e20e20.jpg",
+        "review": "A young lion prince is exiled after his father's death and must return to reclaim his rightful place. Iconic music and a timeless coming-of-age story."
+    },
+    {
+        "id": 39,
+        "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "type": "movie",
+        "genre": "Adventure / Fantasy / Action",
+        "year": 2003,
+        "image": "https://i.pinimg.com/1200x/71/51/4e/71514e83eb01965c3b38aa7b0b62929e.jpg",
+        "review": "A swashbuckling pirate adventure featuring the legendary Captain Jack Sparrow. A modern Disney classic that started a huge franchise."
+    },
+    {
+        "id": 40,
+        "title": "Get Out",
+        "type": "movie",
+        "genre": "Horror / Mystery / Thriller",
+        "year": 2017,
+        "image": "https://i.pinimg.com/1200x/ad/58/bc/ad58bc7da730583bc0490d3bbc4dbc86.jpg",
+        "review": "A smart, critically acclaimed social thriller that masterfully blends horror and satire. Oscar-winning screenplay."
+    },
+    {
+        "id": 41,
+        "title": "Tangled",
+        "type": "disney",
+        "genre": "Animated Musical Adventure / Comedy",
+        "year": 2020,
+        "image": "https://i.pinimg.com/736x/74/f6/87/74f687c316ea2304bc42611f818495f2.jpg",
+        "review": "A lively, charming, and beautifully animated take on the Rapunzel fairy tale. It was well-received for its witty humor, exciting adventure, and the delightful chemistry between the lead characters, Rapunzel and Flynn Rider."
+    },
+    {
+        "id": 42,
+        "title": "Peter Pan",
+        "type": "disney",
+        "genre": "Fantasy / Adventure",
+        "year": 1953,
+        "image": "https://i.pinimg.com/736x/df/24/4f/df244fcfb0997bf9a892bb8130c0ce9e.jpg",
+        "review": "A lively, charming, and beautifully animated take on the Rapunzel fairy tale. It was well-received for its witty humor, exciting adventure, and the delightful chemistry between the lead characters, Rapunzel and Flynn Rider."
+    },
+    {
+        "id": 43,
+        "title": "Mulan",
+        "type": "disney",
+        "genre": "Adventure / Musical",
+        "year": 1998,
+        "image": "https://i.pinimg.com/1200x/4f/2a/5a/4f2a5a0e8fd4969c27759e281c5cfa23.jpg",
+        "review": "A Disney Renaissance film about a young woman who disguises herself as a male soldier to save her elderly father from military service, celebrated for its strong heroine, compelling action, and powerful musical score"
+    }
+  ]
+  
