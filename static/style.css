@@ -1,4 +1,4 @@
-/* Reset default browser styles */
+/* Reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,13 +10,14 @@ body {
   background-color: #4a2419;
   color: #fff;
   line-height: 1.6;
+  min-height: 100vh;
 }
 
-/* Header Styles */
+/* Header */
 header {
   background-color: #4a2419;
   color: #fff;
-  padding: 0.5rem 0;
+  padding: 1rem;
   text-align: center;
   position: sticky;
   top: 0;
@@ -27,6 +28,7 @@ header h1 {
   font-size: 2rem;
 }
 
+/* Navigation */
 nav {
   margin-top: 0.5rem;
 }
@@ -40,168 +42,170 @@ nav a {
 }
 
 nav a:hover {
-  color: #6e4230;
+  color: #c08a72;
 }
 
-/* Search & Filter Controls */
+/* Controls */
 .controls {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
-  margin: 1.5rem 0;
+  margin: 2rem 1rem;
 }
 
 .controls input,
 .controls select {
   padding: 10px 15px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  border-radius: 8px;
+  border: none;
   font-size: 1rem;
-  transition: border-color 0.3s ease;
+  min-width: 220px;
 }
 
 .controls input:focus,
 .controls select:focus {
-  border-color: #6e4230;
-  outline: none;
+  outline: 2px solid #c08a72;
 }
 
-/* Items Layout */
+/* Grid Layout */
 .items {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2rem;
-  padding: 0 2rem 2rem;
+  padding: 2rem;
 }
 
-/* Card Styles */
+/* Cards */
 .card {
-  background-color: #4a2419;
+  background-color: #5c3324;
   border-radius: 20px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
   overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
   display: flex;
   flex-direction: column;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-4px);
-  box-shadow: 20px 20px 20px #774936;
+  transform: translateY(-6px);
 }
 
 .card img {
   width: 100%;
-  height: 400px;
+  height: 380px;
   object-fit: cover;
 }
 
+/* Card Content */
+.card h3,
+.card p {
+  padding: 0 1rem;
+}
+
 .card h3 {
-  font-size: 1.1rem;
-  margin: 1rem 0 0.5rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
 }
 
 .card p {
-  font-size: 0.95rem;
-  color: #fff;
+  margin-top: 0.5rem;
+  color: #f1f1f1;
 }
 
+/* Button */
 .card .btn {
   margin: 1rem;
+  padding: 12px;
   text-align: center;
-  padding: 10px 15px;
-  background-color: #5c3324;
+  background-color: #774936;
   color: #fff;
   text-decoration: none;
+  border-radius: 10px;
   font-weight: bold;
-  border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 .card .btn:hover {
-  background-color: #6e4230;
+  background-color: #9d5f47;
 }
 
 /* Review Page */
 .review-container {
-  max-width: 500px;
+  max-width: 800px;
   margin: 2rem auto;
-  padding: 1rem;
-  background-color: #411d13;
-  border-radius: 20px;
-  box-shadow: 0 20px 20px #6e4230;
+  padding: 2rem;
 }
 
 .review-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
+  background-color: #5c3324;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
 .review-item img {
   width: 100%;
-  max-width: 400px;
-  border-radius: 10px;
-}
-
-.details {
-  text-align: left;
+  max-width: 350px;
+  display: block;
+  margin: 0 auto 1.5rem;
+  border-radius: 15px;
 }
 
 .details h2 {
-  font-size: 2rem;
-  color: #fff;
+  margin-bottom: 1rem;
 }
 
 .details p {
-  margin: 0.5rem 0;
-  font-size: 1rem;
-  color: #fff;
+  margin-bottom: 1rem;
 }
 
+/* Trailer */
 iframe {
-  margin-top: 1rem;
-  border-radius: 10px;
   width: 100%;
-  max-width: 250px;
   height: 315px;
+  border-radius: 10px;
+  margin-top: 1rem;
 }
 
-/* Rating Stars */
+/* Rating */
 .rating {
   font-size: 2rem;
-  color: #ccc;
+  margin-top: 1rem;
   cursor: pointer;
-  margin: 1rem 0;
-  transition: color 0.3s ease;
+  color: #ccc;
 }
 
-.rating:hover,
-.rated {
+.rating:hover {
   color: gold;
 }
 
 /* Footer */
 footer {
   text-align: center;
-  padding: 0.5rem 0;
+  padding: 1rem;
   background-color: #4a2419;
-  color: #fff;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
+  margin-top: 2rem;
 }
 
+/* Mobile */
 @media (max-width: 768px) {
+
   .items {
     grid-template-columns: 1fr;
     padding: 1rem;
   }
 
-  .review-item {
+  .controls {
     flex-direction: column;
+  }
+
+  .card img {
+    height: 320px;
+  }
+
+  iframe {
+    height: 220px;
   }
 }
